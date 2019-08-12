@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #373737;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    color: #141414;
+    background-color: #28D132;
+}
+
+.active {
+    color: #141414 !important;
+    background-color: #28D132;
+}

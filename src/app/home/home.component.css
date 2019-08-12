@@ -1,0 +1,27 @@
+#overview-wrap {
+    padding: 100px 25%;
+}
+
+#overview-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-rows: minmax(150, auto);
+    grid-gap: 1em;
+}
+
+#overview-container a {
+    text-decoration: none;
+    display: flex;
+    background-color: #373737;
+    color: #C0C0C0;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#overview-container a:hover {
+    color: #141414;
+    background-color: #28d132;
+}
