@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ItemsComponent } from "./items/items.component";
 import { ChampionsComponent } from "./champions/champions.component";
 import { CompositionBuilderComponent } from './composition-builder/composition-builder.component';
-import { PatchNotesComponent } from './patch-notes/patch-notes.component';
+import { SatisfactoryComponent } from './satisfactory/satisfactory.component';
 
 
 const routes: Routes = [
@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'items', component: ItemsComponent },
   { path: 'champions', component: ChampionsComponent },
-  { path: 'patch-notes', component: PatchNotesComponent },
+  { path: 'satisfactory', component: SatisfactoryComponent },
   { path: 'composition-builder', component: CompositionBuilderComponent }
 ];
 

@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { ItemsComponent } from './items/items.component';
 import { ChampionsComponent } from './champions/champions.component';
 import { CompositionBuilderComponent } from './composition-builder/composition-builder.component';
-import { PatchNotesComponent } from './patch-notes/patch-notes.component';
+import { SatisfactoryComponent } from './satisfactory/satisfactory.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { PatchNotesComponent } from './patch-notes/patch-notes.component';
     ItemsComponent,
     ChampionsComponent,
     CompositionBuilderComponent,
-    PatchNotesComponent
+    SatisfactoryComponent
   ],
   imports: [
     BrowserModule,
