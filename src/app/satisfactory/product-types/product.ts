@@ -1,13 +1,10 @@
 export class Product {
     name: string;
-    stackSize: number;
-    craftingTime: number;
-    craftingStack: number;
+    id: number;
+    //ingredients: Product[];
 
-    constructor(name: string, stackSize: number, craftingTime: number, craftingStack: number) {
+    constructor(id: number, name: string, ) {
         this.name = name;
-        this.stackSize = stackSize;
-        this.craftingTime = craftingTime;
-        this.craftingStack = craftingStack;
+        this.id = id;
     }
 }
